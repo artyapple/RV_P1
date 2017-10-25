@@ -40,6 +40,7 @@ namespace lti {
   public:
     void operator()(int argc,char *argv[]);
 	void Median(const channel8& sPic, channel8& dPic, const int sizeX, const int sizeY);
+	void Sobel(const channel8& sPic, channel8& GradientPic, channel8& DirectionPic);
   };
 }
 #endif
